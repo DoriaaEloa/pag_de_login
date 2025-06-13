@@ -1,0 +1,55 @@
+body{
+   background-image: url(the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#menu h2{
+   color: #E50914;
+}
+
+#menu {
+   
+        display: flex;
+        padding: 30px ;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(255, 65, 65, 0.6);/*croa sombras ao redor da caixa */
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;/*espaço entre  os elementos*/
+
+        
+}
+ header img{
+    height: 90px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+   
+ }  
+
+.inmputs{
+padding: 10px;
+width: 250px;
+border-radius: 5px;
+border: none;
+}
+button{
+   padding: 10px 20px;
+   width: 150px;
+   border: none;
+   border-radius: 5px;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+}
